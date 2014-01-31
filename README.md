@@ -10,7 +10,7 @@ the time difference between the two events being fired is often &lt; 1ms.
 
 ##example
 
-```
+```javascript
   var Velocity = require('touch-velocity')
     , velocity = new Velocity
     , touchTarget = document.querySelector('#touch-target')
