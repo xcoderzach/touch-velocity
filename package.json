@@ -1,0 +1,20 @@
+{
+  "name": "touch-velocity",
+  "version": "0.0.1",
+  "description": "Calculates velocity",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "sinon": "~1.7.3",
+    "should": "~3.1.2",
+    "mocha": "~1.17.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "author": "Zach Smith",
+  "license": "MIT"
+}
