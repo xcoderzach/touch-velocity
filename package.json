@@ -1,12 +1,14 @@
 {
   "name": "touch-velocity",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Calculates velocity",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "victor": "~0.1.4"
+  },
   "devDependencies": {
     "sinon": "~1.7.3",
     "should": "~3.1.2",
