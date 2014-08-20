@@ -1,12 +1,11 @@
 #touch-velocity
 
-  Calculate (nearly) instantaneous velocity for a thing. 
-Things like touch or mouse events.  Calculating the velocity 
-by looking at the last two events is wildly inaccurate, since 
-the time difference between the two events being fired is often &lt; 1ms.
+  Calculate (nearly) instantaneous velocity for a thing.  Things like touch or
+mouse events.  Calculating the velocity by looking at the last two events is
+wildly inaccurate, since the time difference between the two events being fired
+is often &lt; 1ms.
 
-  This library smooths that out a bit by calculating over the last
-100ms.
+  This library smooths that out a bit by calculating over the last 100ms.
 
 ##example
 
@@ -35,3 +34,8 @@ a touch event.
 ###getVelocity()
 
   Gets the (nearly) instantaneous velocity of the thing you're tracking.
+
+###TODO
+
+  * Work with 2d, accept both x and y positions.
+  * Accept event objects 
