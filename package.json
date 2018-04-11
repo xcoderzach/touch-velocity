@@ -6,9 +6,7 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "victor": "~0.1.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "sinon": "~1.7.3",
     "should": "~3.1.2",
