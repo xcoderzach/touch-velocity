@@ -3,7 +3,7 @@
   "repo": "xcoderzach/touch-velocity",
   "author": "Zach Smith",
   "description": "Calculate velocity for things",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "keywords": [],
   "dependencies": {},
   "development": {},
